@@ -1,0 +1,15 @@
+{
+    "name": "observable",
+    "version": "0.1.0",
+    "description": "Add observable attributes to an object",
+
+    "dependencies": {
+        "component/emitter": "*"
+    },
+
+    "development": {
+        "component/assert": "*"
+    },
+
+    "scripts": ["index.js"]
+}
