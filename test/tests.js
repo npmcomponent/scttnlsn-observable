@@ -17,6 +17,10 @@ describe('Observable', function () {
         assert(this.obj.get('foo') === 'bar');
     });
 
+    it('should return self', function () {
+        assert(this.obj.set('foo', 'bar') === this.obj);
+    });
+
     it('should emit change event for each attribute', function (done) {
         this.obj.on('change foo', function (value, previous) {
             assert(value === 'bar');

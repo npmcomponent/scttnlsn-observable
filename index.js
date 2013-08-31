@@ -41,6 +41,8 @@ module.exports = function (obj) {
                 this.emit('change', changed, previous);
             }
         }
+
+        return this;
     };
 
     obj.get = function (key) {
