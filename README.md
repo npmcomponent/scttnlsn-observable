@@ -41,11 +41,11 @@ m.set({ foo: 'baz' });
 
 ## API
 
-### .set(obj, options)
+### .set(attrs, options)
 
 Set multiple attributes.  Emits `change <attr>` event for each attribute and generic `change` event unless `silent: true` is passed as an option.
 
-### .set(key, value)
+### .set(key, value, options)
 
 Set single attribute.  Emits `change <attr>` event for each attribute and generic `change` event unless `silent: true` is passed as an option.
 
