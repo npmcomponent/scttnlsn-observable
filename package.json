@@ -1,0 +1,8 @@
+{
+  "name": "scttnlsn-observable",
+  "description": "Add observable attributes to an object",
+  "version": "0.1.0",
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  }
+}
